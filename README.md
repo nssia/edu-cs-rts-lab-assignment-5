@@ -11,23 +11,23 @@ date:     Тула, 2014
 1. Сделать форк репозитория на github
 2. Получить рабочую копию
 
-```shell
+    ```shell
     $ git clone ssh://git@github.com/user/edu-cs-rts-lab-assignment-5 lab-5
-```
+    ```
 
 3. Убедиться, что все исходные файлы собираются
 
-```shell
+    ```shell
     $ make all
-```
+    ```
 
 # Запуск задачи реального времени
 
 1. Собрать и запустить `lab-5-1`:
 
-```shell
+    ```shell
     $ make run-lab-5-1
-```
+    ```
 
 2. Документировать код. Например:
 
@@ -40,9 +40,9 @@ date:     Тула, 2014
 
 1. Собрать и запустить `lab-5-2`:
 
-```shell
+    ```shell
     $ make run-lab-5-2
-```
+    ```
 
 2. Используя семафоры Xenomai, сделать так, чтобы задачи стартовали
    одновременно после запуска. То есть, чтобы текст "Task ... started..."
@@ -62,6 +62,5 @@ date:     Тула, 2014
 
 # Литература
 
-[Документация на API Xenomai](http://www.xenomai.org/documentation/trunk/html/api/group__native.html)
-
-[Описание GCC Atomic Built-in Operations](https://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Atomic-Builtins.html)
+1. [Документация на API Xenomai](http://www.xenomai.org/documentation/trunk/html/api/group__native.html)
+2. [Описание GCC Atomic Built-in Operations](https://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Atomic-Builtins.html)
