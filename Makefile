@@ -13,7 +13,7 @@ $(1).o: $(1).c
 	@echo Compiling $$<
 	@$$(CC) -c -o $$@ $$< $$(CFLAGS)
 $(1): $(1).o
-	@echo Linking $$^ into $$2
+	@echo Linking $$^ into $$@
 	@$$(CC) -o $$@ $$^ $$(LDFLAGS)
 clean: clean-$(1)
 clean-$(1):
