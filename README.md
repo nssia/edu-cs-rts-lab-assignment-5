@@ -63,4 +63,5 @@ date:     Тула, 2014
 # Литература
 
 [Документация на API Xenomai](http://www.xenomai.org/documentation/trunk/html/api/group__native.html)
+
 [Описание GCC Atomic Built-in Operations](https://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Atomic-Builtins.html)
